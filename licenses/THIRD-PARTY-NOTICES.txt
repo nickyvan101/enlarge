@@ -1,0 +1,116 @@
+ENLARGE — Third-Party Notices
+Last updated: 2026-11-06
+
+ENLARGE
+-------
+Copyright (c) 2026 Nic. All rights reserved.
+Official website: https://www.101worlds.com
+
+ENLARGE is freeware under the ENLARGE Freeware EULA (EULA.txt). It is free
+to use. You may redistribute complete, unmodified official copies free of
+charge, provided the EULA and all third-party notices are included. Resale,
+paid distribution, paid bundling, and modification are prohibited. No license
+fee is charged. The full EULA is in EULA.txt and licenses/ENLARGE-EULA.txt.
+ENLARGE is not open source software and is not licensed under MIT.
+
+ENLARGE is an independent project. It is not affiliated with, endorsed by,
+or sponsored by ByteDance, AInVFX, numz, ComfyUI, or any of their affiliates.
+
+
+SeedVR2 3B — model and original code
+------------------------------------
+Copyright (c) ByteDance Seed.
+Licensed under the Apache License, Version 2.0.
+Source: https://github.com/ByteDance-Seed/SeedVR
+Model card: https://huggingface.co/ByteDance-Seed/SeedVR2-3B
+Paper: Wang et al., "SeedVR2: One-Step Video Restoration via Diffusion
+Adversarial Post-Training", arXiv:2506.05301 (2025).
+
+The model weights and code are provided under Apache-2.0. They are not
+covered by the ENLARGE EULA. The Apache License 2.0 full text is included at
+licenses/Apache-2.0.txt. No NOTICE file was included with the upstream
+repositories at the time of this release; the attribution above is provided
+voluntarily.
+
+SeedVR2 GGUF quantization (Q8_0) and VAE conversion
+---------------------------------------------------
+Quantized GGUF weights: AInVFX (https://huggingface.co/AInVFX/SeedVR2_comfyUI).
+VAE conversion: numz (https://huggingface.co/numz/SeedVR2_comfyUI).
+Licensed under the Apache License, Version 2.0.
+Changes: the original 3B weights were quantized to Q8_0 GGUF, and the VAE was
+converted to ema_vae_fp16.safetensors for local inference.
+
+SeedVR2 ComfyUI integration
+---------------------------
+Copyright (c) numz and contributors, including Adrien Toupet / AInVFX.
+Licensed under the Apache License, Version 2.0.
+Source: https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler
+Version used: 2.5.22.
+
+Electron, Chromium, Node.js, FFmpeg
+-----------------------------------
+Electron: Copyright (c) Electron contributors; Copyright (c) 2013-2020 GitHub Inc.
+Licensed under the MIT License. The full text is in
+licenses/Electron-LICENSE.txt.
+Electron bundles Chromium, Node.js, FFmpeg, and other third-party components.
+The Chromium third-party notices are included at
+licenses/Chromium-LICENSES.html (and at LICENSES.chromium.html in the
+application root). FFmpeg is distributed under the LGPL; see the Chromium
+notices for the applicable notices and source-availability information.
+
+ENLARGE component installer and worker
+--------------------------------------
+- uv 0.13.7 (Astral Software Inc.) — MIT / Apache-2.0; licenses/uv-LICENSE-MIT.txt
+  and licenses/uv-LICENSE-APACHE.txt. Used to create the local Python venv.
+- adm-zip (MIT) — licenses/adm-zip-LICENSE.txt. Used to extract the engine package.
+- The TTP worker is compiled with PyInstaller and bundles Python, NumPy, and Pillow:
+  Python (PSF) — licenses/Python-LICENSE.txt;
+  NumPy (BSD-3-Clause) — licenses/NumPy-LICENSE.txt;
+  Pillow (MIT-CMU) — licenses/Pillow-LICENSE.txt;
+  PyInstaller (GPL-2.0-or-later with a special exception) —
+  licenses/PyInstaller-COPYING.txt.
+These components are included in the distributed worker executable.
+
+ComfyUI
+-------
+ComfyUI is Copyright (c) comfyanonymous and contributors and is licensed under
+GPL-3.0. ComfyUI is NOT bundled with ENLARGE. This application may use a
+compatible ComfyUI installation that the user installs separately; the user is
+responsible for installing and using ComfyUI under its own license.
+Source and license: https://github.com/comfyanonymous/ComfyUI
+
+
+Python, PyTorch, CUDA, and Python packages
+------------------------------------------
+ENLARGE's release contains the Electron app and its Python worker scripts, but
+does not bundle a Python runtime, PyTorch, CUDA, or the SeedVR2 node in the
+release. If you install or bundle those components, their own licenses apply,
+including but not limited to:
+- Python (PSF License)
+- PyTorch (BSD-3-Clause)
+- NVIDIA CUDA / cuDNN (NVIDIA CUDA Toolkit EULA)
+- Pillow (MIT-CMU), NumPy (BSD-3-Clause), OpenCV (Apache-2.0),
+  diffusers/peft/safetensors (Apache-2.0), einops (MIT), psutil (BSD-3-Clause),
+  tqdm (MPL-2.0/MIT), and other packages listed by the node.
+Review and include the applicable notices if you redistribute a runtime.
+
+System fonts
+------------
+The interface uses fonts supplied by the operating system (e.g., Segoe UI
+Variable and Microsoft JhengHei UI). No font files are distributed with
+ENLARGE.
+
+AI disclosure and user responsibility
+-------------------------------------
+SeedVR2 is a generative restoration model. Upscaled output may differ from the
+input and is not bit-for-bit lossless. Users must have the rights to the images
+they process and must not use the software for illegal, infringing, or
+non-consensual content. The software is provided "as is", without warranty of
+any kind. See the ENLARGE EULA for the warranty and liability terms.
+
+Where to find the full licenses
+-------------------------------
+- ENLARGE Freeware EULA: EULA.txt / licenses/ENLARGE-EULA.txt
+- Apache License 2.0: licenses/Apache-2.0.txt
+- Electron MIT: licenses/Electron-LICENSE.txt
+- Chromium third-party notices: licenses/Chromium-LICENSES.html
