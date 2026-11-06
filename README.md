@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/readme/badges.png" alt="Windows 10 / 11 · NVIDIA RTX · 100% Local GPU · Free · No Ads" width="100%">
+  <img src="assets/readme/badges-dark.png" alt="Windows 10 / 11 · NVIDIA RTX · 100% Local GPU · Free · No Ads" width="100%">
 </p>
 
 <h1 align="center">Upscaler by Nic — AI Image Upscaler</h1>
