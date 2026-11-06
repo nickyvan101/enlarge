@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "componentsVersion": "2026.11.06-r1",
-  "assetBase": "https://github.com/nickyvan101/enlarge/releases/download/v1.3.0/",
+  "assetBase": "https://github.com/nickyvan101/enlarge/releases/download/v1.3.5/",
   "engine": {
     "version": "2.5.22",
     "asset": "enlarge-engine-2.5.22.zip",
-    "url": "https://github.com/nickyvan101/enlarge/releases/download/v1.3.0/enlarge-engine-2.5.22.zip",
+    "url": "https://github.com/nickyvan101/enlarge/releases/download/v1.3.5/enlarge-engine-2.5.22.zip",
     "sha256": "10a3ce04883a0bac1aeec4996a83ed4014c280337f3d577c100a77108312c946",
     "size": 1293638
   },
@@ -17,7 +17,7 @@
     "torchIndex": "https://download.pytorch.org/whl/cu130",
     "uv": {
       "version": "0.13.7",
-      "url": "https://github.com/nickyvan101/enlarge/releases/download/v1.3.0/uv-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/nickyvan101/enlarge/releases/download/v1.3.5/uv-x86_64-pc-windows-msvc.zip",
       "sha256": "0cdc5b38fe5a8168ed6a25814f5ba43c21d313dd3187314fccb37b7cec46e021",
       "size": 15236317
     }

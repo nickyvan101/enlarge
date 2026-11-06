@@ -1,6 +1,6 @@
-# ENLARGE
+# Upscaler by Nic — AI Image Upscaler
 
-**ENLARGE** 是一套 Windows 桌面 AI 圖片放大工具，使用 SeedVR2 3B 模型與 TTP 分塊處理，在 NVIDIA GPU 上把圖片高保真放大到你指定的像素尺寸。
+**Upscaler by Nic — AI Image Upscaler** 是一套 Windows 桌面 AI 圖片放大工具，使用 SeedVR2 3B 模型與 TTP 分塊處理，在 NVIDIA GPU 上把圖片高保真放大到你指定的像素尺寸。
 
 - 官方網站：https://www.101worlds.com
 - 免費使用；可自由轉發完整且未修改的官方版本；**禁止轉售、付費散布與修改**
@@ -11,7 +11,7 @@
 
 請從 **Releases** 下載最新版安裝檔：
 
-- `ENLARGE-Setup-x.y.z.exe`
+- `Upscaler-by-Nic-Setup-x.y.z.exe`
 - 官方模型透過 Hugging Face 模型頁下載（由 App 首次使用時一鍵處理，不放在 GitHub）
 - 種子檔案與 SHA256 校驗值會附在 Release assets
 
@@ -27,7 +27,7 @@
 
 ## 首次使用
 
-1. 安裝並啟動 ENLARGE。
+1. 安裝並啟動 Upscaler by Nic。
 2. 閱讀並同意 EULA。
 3. 載入圖片、設定像素尺寸，按「開始放大」。
 4. 首次使用會跳出元件下載視窗，一鍵下載：
@@ -52,7 +52,7 @@
 - Electron / Chromium / FFmpeg；PyTorch、Python、NumPy、Pillow、uv、adm-zip 等
 - 完整授權與 attribution：[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) 與 [licenses](licenses/)
 
-ENLARGE 與 ByteDance、AInVFX、numz、ComfyUI 無隸屬或背書關係。SeedVR2 屬生成式細節重建，非位元級無損；輸出 PNG 為無損格式，但生成內容可能與原圖有細微差異。
+Upscaler by Nic 與 ByteDance、AInVFX、numz、ComfyUI 無隸屬或背書關係。SeedVR2 屬生成式細節重建，非位元級無損；輸出 PNG 為無損格式，但生成內容可能與原圖有細微差異。
 
 ## 支持
 
