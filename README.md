@@ -14,13 +14,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nickyvan101/enlarge/releases/download/v1.3.5/Upscaler-by-Nic-Setup-1.3.5.exe">
-    <img src="assets/readme/download-button.png" alt="下載 Upscaler by Nic v1.3.5" width="560">
+  <a href="https://github.com/nickyvan101/enlarge/releases/download/v1.3.6/Upscaler-by-Nic-Setup-1.3.6.exe">
+    <img src="assets/readme/download-button-136.png" alt="下載 Upscaler by Nic v1.3.6" width="560">
   </a>
 </p>
 
 <p align="center">
-  <sub>Windows 10 / 11 x64 · v1.3.5 · 約 108 MB</sub><br>
+  <sub>Windows 10 / 11 x64 · v1.3.6 · 約 108 MB</sub><br>
   <a href="https://github.com/nickyvan101/enlarge/releases/latest">最新版本與更新紀錄</a>
   &nbsp;·&nbsp;
   <a href="https://www.101worlds.com">官方網站</a>
@@ -60,9 +60,9 @@
 
 | 項目 | 內容 |
 | --- | --- |
-| 最新版本 | **v1.3.5** |
-| 安裝檔 | [Upscaler-by-Nic-Setup-1.3.5.exe](https://github.com/nickyvan101/enlarge/releases/download/v1.3.5/Upscaler-by-Nic-Setup-1.3.5.exe) |
-| 校驗檔 | [SHA256SUMS.txt](https://github.com/nickyvan101/enlarge/releases/download/v1.3.5/SHA256SUMS.txt) |
+| 最新版本 | **v1.3.6** |
+| 安裝檔 | [Upscaler-by-Nic-Setup-1.3.6.exe](https://github.com/nickyvan101/enlarge/releases/download/v1.3.6/Upscaler-by-Nic-Setup-1.3.6.exe) |
+| 校驗檔 | [SHA256SUMS.txt](https://github.com/nickyvan101/enlarge/releases/download/v1.3.6/SHA256SUMS.txt) |
 | 版本列表 | [GitHub Releases](https://github.com/nickyvan101/enlarge/releases) |
 | 官方網站 | [www.101worlds.com](https://www.101worlds.com) |
 
